@@ -56,6 +56,9 @@ h1 {
     filter: brightness(110%);
 }
 
+.btn:focus{
+    outline:none;
+}
 .center__function{
     padding: 5px 0px;
 }
