@@ -50,6 +50,7 @@ h1 {
     background: rgb(200, 200, 200);
     color: #000;
     margin: 5px 10px;
+    outline: none;
 }
 
 .btn:hover{
