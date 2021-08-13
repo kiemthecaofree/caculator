@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="caculator_top">
+            <h1 id = "result">0</h1>
+        </div>
+        <div class="caculator_bottom">
+            <div class="center__function">
+                <div class="four">
+                    <button class="btn operator" value = "+">+</button>
+                    <button class="btn operator" value = "-">-</button>
+                    <button class="btn operator" value = "*">×</button>
+                    <button class="btn operator" value = "/">÷</button>
+                </div>
+                <div class="two">
+                    <div class="two__left">
+                        <div class="three">
+                            <button class="btn num" value = "7">7</button>
+                            <button class="btn num" value = "8">8</button>
+                            <button class="btn num" value = "9">9</button>
+                        </div>
+
+                        <div class="three">
+                            <button class="btn num" value = "4">4</button>
+                            <button class="btn num" value = "5">5</button>
+                            <button class="btn num" value = "6">6</button>
+                        </div>
+
+                        <div class="three">
+                            <button class="btn num" value = "1">1</button>
+                            <button class="btn num" value = "2">2</button>
+                            <button class="btn num" value = "3">3</button>
+                        </div>
+
+                        <div class="three">
+                            <button class="btn" id = "dot" value = ".">.</button>
+                            <button class="btn num" value = "0">0</button>
+                            <button class="btn clear" id = 'clear' value = "C">C</button>
+                        </div>
+                    </div>
+                <div class="two__right">
+                    <button class="btn equal" id = 'equal' value = "=">=</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="javascript.js"></script>
+</body>
+</html>
